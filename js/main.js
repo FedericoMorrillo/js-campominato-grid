@@ -12,9 +12,14 @@ function cellsGenerator(tag, classname, content) {
 const board = document.querySelector(".board");
 const buttonPlay = document.querySelector(".btn");
 let lvDifficolta = document.getElementById("difficolta");
+const messaggio = document.querySelector('.messaggio');
 
 //scateniamo un evento on click sul bottone
 buttonPlay.addEventListener("click", function () {
+
+//nasconde il messaggio centrale
+messaggio.classList.add('hidden');
+
   //elimina le celle se precedentemente ho cliccato sul bottone
   board.innerHTML = "";
 

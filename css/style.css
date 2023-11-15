@@ -45,11 +45,26 @@ h1{
 /*header*/
 
 /*main*/
+h2{
+    font-size: 1.875rem;
+}
+.messaggio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*spostiamo indietro di metà della sua misura di originale per centrarlo*/
+    transform: translate(-50%, -50%);
+    
+}
+.hidden{
+    display: none;
+}
 main{
     background-color: #7fffd4;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .board{

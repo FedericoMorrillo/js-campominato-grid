@@ -9,5 +9,8 @@
 7) aggiungiamo un input di tipo select con all' interno le tre difficoltà;
 8) prendiamo l' id dell' input e salviamolo in una variabile in js;
 9) aggiungiamo nel css le classi di difficoltà con le rispettive misure per farle entrare nel contenitore perfettamente;
-9) nell' evento on click del bottone creiamo 3 condizioni con all' interno il ciclo che genera le celle + aggiunge la classe di difficoltà;
+10) nell' evento on click del bottone creiamo 3 condizioni con all' interno il ciclo che genera le celle + aggiunge la classe di difficoltà;
+11) aggiungiamo un messaggio centrale al main in posizione absolute e centriamolo;
+12) all' evento on click aggiungiamo una classe hidden per nasconderlo alla generazione delle celle;
+
 
