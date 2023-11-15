@@ -62,13 +62,26 @@ main{
 }
 
 .cells{
-    width: calc(100% / 10) ;
-    height: calc(100% / 10);
     border: 1px solid black;
     background-color:#7fffd4;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.cells-hard{
+width: calc(100% / 10);
+height: calc(100% / 10);
+}
+.cells-medium{
+    width: calc(100% / 9) ;
+    height: calc(100% / 9);
+}
+.cells-easy{
+    width: calc(100% / 7) ;
+    height: calc(100% / 7);
+}
+.cells:hover{
+    cursor: pointer;
 }
 .select-cell{
     background-color: #007fff;
