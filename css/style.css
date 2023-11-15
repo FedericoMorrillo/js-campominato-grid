@@ -5,3 +5,29 @@
     box-sizing: border-box;
 }
 /*reset*/
+/*typograpy*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*typography*/
+/*utils*/
+.flex{
+    display: flex;
+}
+/*utils*/
+/*header*/
+header{
+    justify-content: space-between;
+    padding: 1.25rem 1.25rem;
+    align-items: center;
+}
+h1{
+    align-self: center;
+    font-size: 2.5rem;
+    margin-left: .625rem;
+}
+.btn{
+    padding: 0 .9375rem;
+    
+}
+/*header*/
