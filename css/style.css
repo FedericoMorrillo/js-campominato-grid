@@ -55,7 +55,6 @@ main{
 .board{
     width: 500px;
     height: 500px;
-    background-color: red;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -87,3 +86,9 @@ height: calc(100% / 10);
     background-color: #007fff;
 }
 /*main*/
+/*footer*/
+footer{
+    padding: .625rem .625rem;
+    font-size: .875rem;
+}
+/*footer*/
