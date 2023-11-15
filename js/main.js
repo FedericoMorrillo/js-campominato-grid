@@ -22,6 +22,13 @@ buttonPlay.addEventListener('click', function(){
    for(let i=1; i<=100; i++){
     const celle = cellsGenerator('div', 'cells', i);
     board.append(celle);
-   }
 
+    //aggiunge un evento on click sulle celle
+    celle.addEventListener('click', function(){
+    this.classList.add('select-cell');
+    console.log(i);
+    })
+   }
+    
 })
+    

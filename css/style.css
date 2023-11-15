@@ -70,4 +70,7 @@ main{
     justify-content: center;
     align-items: center;
 }
+.select-cell{
+    background-color: #007fff;
+}
 /*main*/
